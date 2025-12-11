@@ -23,6 +23,6 @@ This repository contains simple C++ examples demonstrating how to use gRPC for b
    ```
 2. Look at the [protos](./protos/) folder, [starter.proto](./protos/starter.proto) is the example Protocol Buffers definition file.
 
-3. Run the batch script [protoc_command.bat](./protoc_command.bat) to generate the C++ code from the proto file.
+3. Run the batch script [protoc_command.bat](./protos/protoc_command.bat) to generate the C++ code from the proto file.
 
 4. Open the server and client solutions in [Hello](./Hello/) folder in Visual Studio 2022. 
