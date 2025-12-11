@@ -1,0 +1,14 @@
+syntax="proto3";
+
+message Request {
+  string name = 1;
+  int32 number = 2;
+}
+
+message Response {
+  string message = 1;
+}
+
+service Hello {
+  rpc sayHello(Request) returns (Response) {}
+}

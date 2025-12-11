@@ -1,0 +1,1 @@
+protoc --cpp_out=. --grpc_out=. --plugin=protoc-gen-grpc=%GRPC_INSTALL_DIR%\bin\grpc_cpp_plugin.exe starter.proto

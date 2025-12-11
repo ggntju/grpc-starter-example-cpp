@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="grpc">
+      <UniqueIdentifier>{0fdd6f18-7db5-4d73-82a0-084fe5d37f74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="starter.grpc.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="starter.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="starter.grpc.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="starter.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_base.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_city.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_civil_time.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_cord.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_cord_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_cordz_functions.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_cordz_handle.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_cordz_info.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_cordz_sample_token.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_crc_cord_state.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_crc_cpu_detect.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_crc_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_crc32c.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_debugging_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_decode_rust_punycode.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_demangle_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_demangle_rust.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_die_if_null.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_examine_stack.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_exponential_biased.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_failure_signal_handler.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_commandlineflag.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_commandlineflag_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_config.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_marshalling.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_parse.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_private_handle_accessor.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_program_name.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_reflection.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_usage.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_flags_usage_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_graphcycles_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_hash.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_hashtablez_sampler.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_int128.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_kernel_timeout_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_leak_check.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_flags.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_globals.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_initialize.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_check_op.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_conditions.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_fnmatch.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_format.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_globals.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_log_sink_set.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_message.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_nullguard.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_proto.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_internal_structured_proto.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_severity.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_log_sink.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_low_level_hash.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_malloc_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_periodic_sampler.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_poison.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_distributions.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_distribution_test_util.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_entropy_pool.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_platform.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_randen.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_randen_hwaes.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_randen_hwaes_impl.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_randen_slow.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_internal_seed_material.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_seed_gen_exception.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_random_seed_sequences.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_raw_hash_set.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_raw_logging_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_scoped_set_env.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_spinlock_wait.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_stacktrace.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_status.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_statusor.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_str_format_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_strerror.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_string_view.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_strings.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_strings_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_symbolize.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_synchronization.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_throw_delegate.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_time.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_time_zone.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_tracing_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_utf8_for_code_point.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\absl_vlog_config_internal.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\address_sorting.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\cares.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\crypto.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\gpr.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc_authorization_provider.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc_plugin_support.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc_unsecure.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc++.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc++_alts.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc++_error_details.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc++_reflection.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpc++_unsecure.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\grpcpp_channelz.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\libprotobuf.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\libprotobuf-lite.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\libprotoc.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\libupb.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\libutf8_range.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\libutf8_validity.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\re2.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\ssl.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_base_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_hash_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_json_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_lex_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_mem_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_message_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_mini_descriptor_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_mini_table_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_reflection_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_textformat_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\upb_wire_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\utf8_range_lib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\zlib.lib">
+      <Filter>grpc</Filter>
+    </Library>
+    <Library Include="E:\LaserPulse\grpc\lib\zlibstatic.lib">
+      <Filter>grpc</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
