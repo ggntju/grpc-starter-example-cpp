@@ -422,3 +422,4 @@ FodyWeavers.xsd
 .vscode
 .marscode
 *.swp
+.cmake
