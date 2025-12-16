@@ -416,3 +416,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Linux platform
+
+.vscode
+.marscode
+*.swp

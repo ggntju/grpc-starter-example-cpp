@@ -2,7 +2,7 @@
 
 This repository contains simple C++ examples demonstrating how to use gRPC for building client-server applications. Each example is designed to help you understand different aspects of gRPC, from basic setup to advanced features.
 
-## Prerequisites
+## Prerequisites - Visual Studio Solution
 
 - Windows Platform
 - CMake 3.30
@@ -10,7 +10,7 @@ This repository contains simple C++ examples demonstrating how to use gRPC for b
 - gRPC v1.72 
 - [gRPC C++ - Building from source](https://github.com/grpc/grpc/blob/master/BUILDING.md#build-from-source)
 
-## Steps to use this example
+## Steps to use this example - Visual Studio Solution
 
 0. After building gRPC from source, you need to set the environment variable `GRPC_INSTALL_DIR` to the path where gRPC is installed which is also the path when you build with CMake flag `CMAKE_INSTALL_PREFIX`.
 
@@ -28,3 +28,30 @@ This repository contains simple C++ examples demonstrating how to use gRPC for b
 5. Open the server and client solutions in [HelloAsync](./HelloAsync/) folder in Visual Studio 2022. 
 
 Note: Missing dlls could be found in `GRPC_INSTALL_DIR`
+
+## Prerequisites - CMake Solution
+
+- CMake 3.30
+- gRPC v1.72 
+- [gRPC C++ - Building from source](https://github.com/grpc/grpc/blob/master/BUILDING.md#build-from-source)
+
+## Steps to use this example - CMake Solution
+
+0. After building gRPC from source, you need to set the environment variable `GRPC_INSTALL_DIR` to the path where gRPC is installed which is also the path when you build with CMake flag `CMAKE_INSTALL_PREFIX`.
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ggntju/grpc-starter-example-cpp
+   cd grpc-starter-example-cpp
+   ```
+2. Look at the [protos](./protos/) folder, [starter.proto](./protos/starter.proto) is the example Protocol Buffers definition file.
+
+3. Create a build directory under [cmake](./cmake/) folder:
+   ```sh
+   mkdir build
+   cd build
+   ```
+
+4. Run the script [build.sh](./cmake/build.sh) or [build.bat](./cmake/build.bat) (depending on your platform) to generate the makefiles.
+
+5. Build the examples!

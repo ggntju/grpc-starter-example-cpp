@@ -1,0 +1,3 @@
+cmake -DgRPC_INSTALL=ON -DgRPC_BUILD_TESTS=OFF -DCMAKE_CXX_STANDARD=17 -DCMAKE_INSTALL_PREFIX=%GRPC_INSTALL_DIR% ..\
+
+cmake --build . --config Release --target install -j 4
