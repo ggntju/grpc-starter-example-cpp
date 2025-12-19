@@ -59,7 +59,7 @@ target_link_libraries(starter_grpc_proto
 
 # Targets greeter_[async_](client|server)
 foreach(_target
-  syncClient syncServer asyncClient asyncServer)
+  syncClient syncServer asyncClient asyncServer asyncCallbackClient asyncCallbackServer)
   add_executable(${_target} "${_target}.cc")
   target_link_libraries(${_target}
     starter_grpc_proto
